@@ -1,0 +1,19 @@
+Algoritmo Ejercicio6
+	Definir persona, edad, men, may Como Entero
+	persona = 1
+	mientras persona <= 3 Hacer
+		Escribir "Ingrese la edad"
+		leer edad
+		si edad < 25 Entonces
+			men = men + 1
+			edadesM = edad + edadesM
+			promMenores = edadesM / contadormenor
+		SiNo
+			mayr = may + 1
+			edades = edad + edades
+			may = edades / may
+		FinSi
+		persona = persona + 1
+	FinMientras
+	Escribir "El promedio de menores es: " men " y arriba de 25 es: " may
+FinAlgoritmo
